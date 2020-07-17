@@ -1,0 +1,120 @@
+.Contact .banner {
+	background-color:#fafafa;
+	padding:60px;
+}
+.Contact .form-control {
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    height: 45px;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+.Contact .form-control.contact-message {
+    height: 100px;
+}
+.Contact .btn {
+    background-color: #ff841b;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+	word-wrap: break-word;
+}
+.Contact .btn:hover {
+    background-color: #273b65;
+}
+.Contact .sub-title {
+    color: #707070;
+    text-transform: uppercase;
+}
+.Contact .title {
+    color: #000000;
+    font-size: 42px;
+    margin-top: 0;
+    padding-bottom: 20px;
+} 
+.Contact .title-block {
+    padding-left: 30px;
+}
+.Contact .address {
+    padding-bottom: 10px;
+}
+.Contact .email{
+    padding-bottom: 10px;
+}
+.Contact .phone{
+    padding-bottom: 10px;
+	
+}
+.Contact p {
+    font-size: 12px;
+	line-height: 1.9;
+	color: #707070;
+}
+.Contact b{
+    font-weight: 700;
+    color: #001a53;
+}
+.Contact a{
+	color: #707070;
+}
+
+.Contact .social-media-links li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right:12px;
+}
+.Contact .social-media-links {
+    padding-left: 0;
+    list-style: none;
+}
+.Contact .social-media-links li:first-child  {
+    margin-left: 0px;
+}
+.Contact .social-media-links li:last-child{
+    margin-right: 0px;
+}
+.Contact .fa {
+    font-size: 22px;
+    color:#ff841b;
+}
+.Contact .media-link:hover .fa {
+    color: #273b65;
+}
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 991px) {
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.Contact .banner {
+    padding: 20px;
+}
+.Contact .right {
+    padding-top: 20px;
+	padding-left: 30px;
+}
+.Contact .social-media-links li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

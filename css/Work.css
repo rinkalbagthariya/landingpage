@@ -1,0 +1,99 @@
+.Work .banner {
+	background-image: url("../img/web banner-3.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.Work .banner-content .sub-title {
+    color: #fff;
+    text-transform: uppercase;
+}
+.Work .banner-content .content {
+    padding: 80px;
+	margin-bottom: 90px; 
+}
+.Work .banner-content .title{
+    color: #fff;
+	margin:0;
+}
+.Work .banner-content .info{
+    color: #fff;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.Work .work-box {
+    background-color: #fff;
+    max-width: 65%;
+    margin: -113px auto;
+    margin-bottom: 0;
+	
+	box-shadow: 5px 0px 20px #888;
+}
+.Work .work-box .content {
+    text-align: center;
+}
+.Work .sub-title{
+    color: #001a53;
+}
+.Work .work-box .info{
+    color: #707070;
+	font-size: 12px;
+}
+.Work .work-box::after{
+	clear:both;
+	display:block;
+	content:"";
+}
+.Work .work-box .left{
+	padding:40px;
+	cursor:pointer;
+}
+.Work .work-box .right{
+	padding:40px;
+	cursor:pointer;
+}
+.Work .left:hover {
+    background-color: #f5f5f5;
+    background-image: url("../img/web img -5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Work .right:hover {
+    background-color: #f5f5f5;
+    background-image: url("../img/web img -5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 991px) {
+
+.Work .banner-content .content {
+    padding: 40px;
+}
+
+
+
+}
+@media only screen and (max-width: 767px) {
+
+.Work .banner-content .content {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.Work .work-box {
+    max-width: unset;
+    margin: 0;
+}
+.Work .work-box .left {
+    padding: 30px;
+}
+.Work .work-box .right{
+    padding: 30px;
+}
+
+
+
+}

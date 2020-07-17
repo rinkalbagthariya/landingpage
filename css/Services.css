@@ -1,0 +1,108 @@
+.Services .banner {
+	background-image: url("../img/web banner-2.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.Services .content-wrapper::after{
+	clear:both;
+	display:block;
+	content:"";
+}
+.Services .content-wrapper {
+    background-color: #fff;
+    padding: 40px;
+    margin: 80px 40px 80px 80px;
+}
+.Services .title {
+    color: #001a53;
+    font-size: 42px;
+}
+.Services .title {
+    color: #001a53;
+    font-size: 42px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.Services .sub-title {
+    color: #707070;
+    text-transform: uppercase;
+}
+.Services .editable a {
+    color: #001a53;
+	text-decoration:none;
+}
+.Services .editable a:hover {
+    color: #ff841b;
+}
+.Services .icon-img {
+    padding-top: 12px;
+}
+.Services .main-content 
+.col-md-6,
+.col-md-2,
+.col-md-9{
+	padding:0;
+}
+.Services .content2-txt1::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.Services .content2-txt1 {
+    padding-bottom: 20px;
+}
+.Services .content2-txt2::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.Services .content2-txt2 {
+    padding-bottom: 20px;
+}
+
+.Services .content2-txt3::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.Services .content2-txt3 {
+    padding-bottom: 20px;
+}
+.Services .editable p {
+    color: #707070; 
+}
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 767px) {
+.Services .content-wrapper {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 15px;
+}
+.Services .main-content {
+    text-align: center;
+}
+.Services .main-content 
+.col-md-6,
+.col-md-2,
+.col-md-9{
+	padding-right: 15px;
+padding-left: 15px;
+}
+.Services .title-block {
+    text-align: center;
+}
+.Services .title {
+    color: #001a53;
+    font-size: 28px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+
+}
+
+

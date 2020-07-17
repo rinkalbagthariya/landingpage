@@ -1,0 +1,57 @@
+.Banner-top .banner {
+	background-image: url("../img/web banner-top -1.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.Banner-top .banner-content {
+	padding: 80px 0;
+	text-align: center;
+	margin: 80px 0;
+}
+.Banner-top .sub-title {
+	color: #ff841b;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 4px;
+}
+.Banner-top .title {
+	color: #fff;
+	font-size: 62px;
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+.Banner-top .info {
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.9;
+	padding-bottom: 40px;
+}
+.Banner-top .btn-top {
+	background-color: #ff841b;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+.Banner-top .btn-top:hover {
+	background-color: #273b65;
+}
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 991px) {
+.Banner-top .title {
+	font-size: 42px;
+}
+.Banner-top .banner-content {
+	padding: 40px 0;
+}
+}
+@media only screen and (max-width: 767px) {
+.Banner-top .title {
+	font-size: 24px;
+}
+}

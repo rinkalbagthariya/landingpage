@@ -1,0 +1,113 @@
+/* indicator position */
+.Testimonial .carousel-indicators {
+	width: 30%;
+}
+.Testimonial .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 79px;
+	margin-right: -19px;
+}
+/* indicator color */
+.Testimonial .carousel-indicators li {
+	background: #b2b2b2;
+	height: 3px;
+	width: 47px;
+	border-radius: 4px;
+}
+/* active indicator */
+.Testimonial .carousel-indicators .active {
+	background: #ff841b;
+	height: 4px;
+	width: 45px;
+	border-radius: 4px;
+}
+.Testimonial {
+	padding: 40px 0;
+}
+.Testimonial .carousel {
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+.Testimonial .carousel .item {
+	color: #999;
+	font-size: 14px;
+	overflow: hidden;
+}
+.Testimonial .carousel .item a {
+	color: #eb7245
+}
+.Testimonial img {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 100%;
+}
+.Testimonial .carousel .testimonial {
+	padding: 30px 0 10px
+}
+.Testimonial .carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-shadow: none;
+	top: 4px
+}
+.Testimonial .title-block {
+	padding-left: 30px;
+}
+.Testimonial .title-block .sub-title {
+	color: #707070;
+	text-transform: uppercase;
+}
+.Testimonial .title-block .title {
+	color: #000000;
+	font-size: 42px;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+.Testimonial .slider-content {
+	padding-left: 40px;
+}
+.Testimonial .slider-content .title {
+	color: #001a53;
+	padding-top: 20px;
+}
+.Testimonial .slider-content .sub-title {
+	color: #9b9b9b;
+}
+.Testimonial .slider-content .info {
+	color: #676767;
+	font-size: 12px;
+}
+
+/*=================================================responsive============================================*/
+@media only screen and (min-width:1500px) {
+.Testimonial .carousel-indicators li {
+	height: 4px;
+	width: 47px;
+}
+}
+@media only screen and (max-width: 991px) {
+}
+ @media only screen and (max-width: 767px) {
+.Testimonial .carousel-indicators {
+	bottom: 0;
+}
+.Testimonial .slider-content {
+	padding-left: 0px;
+}
+.Testimonial .title-block {
+	padding-left: 15px;
+}
+.Testimonial .title-block .title {
+	font-size: 24px;
+}
+.Testimonial .title-block .sub-title {
+	font-size: 14px;
+}
+.Testimonial .carousel-indicators {
+	width: 60%;
+}
+}

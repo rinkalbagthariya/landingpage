@@ -1,0 +1,119 @@
+.Team::after{
+	clear:both;
+	content:"";
+	display:block;
+}
+.Team{
+	padding:40px 0;
+}
+.Team .work-content {
+    text-align: center;
+}
+.Team .work-content::after{
+	clear:both;
+	content:"";
+	display:block;
+}
+.Team .title-block {
+    padding-left: 30px;
+	margin-top:20px;
+}
+.Team .title-block .sub-title {
+    color: #9b9b9b;
+    text-transform: uppercase;
+}
+.Team .title-block .title {
+    color: #001a53;
+    font-size: 42px;
+    margin-top:20px;
+}
+.Team .info {
+    color: #676767;
+    font-size: 12px;
+}
+.Team .work-content .sub-title {
+    color: #9b9b9b;
+}
+.Team .work-content .title {
+    color: #001a53;
+	padding-top:20px;
+}
+
+
+
+.Team .social-media-links {
+    padding-left: 0;
+    list-style: none;
+	margin-bottom:0;
+}
+.Team .social-media-links li:first-child {
+    margin-left: 0px;
+}
+.Team .social-media-links li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.Team .social-media-links {
+    list-style: none;
+}
+.Team .fa {
+    font-size: 18px;
+    color: #ff841b;
+}
+.Team .work-text {
+    position: relative;
+}
+.Team .work-icon {
+    position: absolute;
+    bottom: 134px;
+    z-index: 9;
+    background-color:rgba(11,32,76,0.7);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+	opacity:0;
+}
+
+.Team .work-text:hover .work-icon{
+	opacity:1;
+}
+
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 991px) {
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.Team .title-block {
+    padding-left: 15px;
+}
+.Team .title-block .title {
+    font-size: 24px;
+}
+.Team .title-block .sub-title{
+	font-size:14px;
+}
+.Team .slick-dots {
+    bottom: auto !important;
+}
+
+.Team .items {
+    width: 90%;
+}
+
+
+}
+
+
+
+
+
+
+
+

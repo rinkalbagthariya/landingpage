@@ -1,0 +1,62 @@
+.Quote .banner {
+	background-image: url("../img/web img -8.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.Quote .banner-content {
+    padding: 60px;
+}
+.Quote .banner-content::after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.Quote .btn {
+    background-color: #ff841b;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+	float: right;
+	margin-top: 30px;
+}
+.Quote .btn:hover {
+    background-color: #273b65;
+}
+.Quote .title {
+    color: #fff;
+    font-size: 32px;
+}
+.Quote .info {
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+/*=================================================responsive============================================*/
+
+@media only screen and (max-width: 991px) {
+
+.Quote .title {
+    font-size: 24px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.Quote .banner-content {
+    padding: 20px;
+	text-align: center;
+}
+.Quote .btn{
+	float:none;
+}
+
+
+
+
+}
